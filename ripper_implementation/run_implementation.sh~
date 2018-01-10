@@ -45,4 +45,4 @@
 python src/translate.py
 
 # KÖRNING 1: 
-python2 src/ripperk.py -e learn -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-train.txt" -m "./results/house-votes-model.dat" -o "./results/house-votes-model.txt" -k 2 -p 1
+python2 src/ripperk.py -e learn -a "./data/house-votes-84-attr.txt" -c Party -t "../data/house-votes-train.txt" -m "./results/house-votes-model.dat" -o "./results/house-votes-model.txt" -k 2 -p 1
