@@ -1,0 +1,16 @@
+Learning the abalone scenario.
+> python2 ripperk.py -e learn -a "../data/abalone-attr.txt" -c Rings -t "../data/abalone-train.txt" -m "../results/abalone-model.dat" -o "../results/abalone-model.txt" -k 2 -p 1
+
+
+Testing abalone
+python2 ripperk.py -e classify -a "../data/abalone-attr.txt" -c Rings -t "../data/abalone-test1.txt" -m "../results/abalone-model.dat" -o "../results/abalone-test-results.txt"
+
+
+training house-votes
+> python2 ripperk.py -e learn -a "../data/house-votes-84-attr.txt" -c Party -t "../data/house-votes-train.txt" -m "../results/house-votes-model.dat" -o "../results/house-votes-model.txt" -k 2 -p 1
+
+
+Testing house votes
+python2 ripperk.py -e classify -a "../data/house-votes-84-attr.txt" -c Party -t "../data/house-votes-test.txt" -m "../results/house-votes-model.dat" -o "../results/house-votes-results.txt"
+
+

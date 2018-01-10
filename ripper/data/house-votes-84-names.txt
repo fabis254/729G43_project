@@ -1,0 +1,17 @@
+Party democrat republican
+Handicapped-infants y n ?
+Water-project-cost-sharing y n ?
+Adoption-of-the-budget-resolution y n ?
+Physician-fee-freeze y n ?
+El-salvador-aid y n ?
+Religious-groups-in-schools y n ?
+Anti-satellite-test-ban y n ?
+Aid-to-nicaraguan-contras y n ?
+Mx-missile y n ?
+Immigration y n ?
+Synfuels-corporation-cutback y n ?
+Education-spending y n ?
+Superfund-right-to-sue y n ?
+Crime y n ?
+Duty-free-exports y n ?
+Export-administration-act-south-africa y n ?

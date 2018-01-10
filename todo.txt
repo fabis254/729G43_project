@@ -1,0 +1,15 @@
+Kolla upp getopt (importerad funktion)
+
+Bestäm hur jag skall fördela tränings och test-set
+
+Läs på om IREP och REP algoritmerna (källor finns i artikeln)
+
+Kanske ta en koll på C4.5 algoritmen också eftersom att den verkar komma upp hela jäkla tiden
+
+Borde få riktig stenkoll på ID3 algoritmen också 
+
+Göra en testkörning med abalone filerna
+
+Fatta någon sorts beslut om hur jag skall lägga upp rapporten
+
+Läsa klart original artikeln

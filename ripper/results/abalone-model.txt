@@ -1,0 +1,24 @@
+IF Diameter >= 0.585 && Shell_weight <= 0.5 THEN 29
+IF Viscera_weight <= 0.213 && Height >= 0.195 THEN 26
+IF Shucked_weight <= 0.001 || Shucked_weight <= 0.625 THEN 1
+IF  THEN 23
+IF  THEN 3
+IF Shucked_weight >= 0.7055 && Length <= 0.655 THEN 22
+IF Diameter >= 0.59 THEN 21
+IF  THEN 4
+IF Shucked_weight >= 0.625 || Length <= 0.675 && Shell_weight >= 0.605 THEN 20
+IF  THEN 18
+IF  THEN 19
+IF  THEN 17
+IF  THEN 6
+IF  THEN 5
+IF  THEN 16
+IF  THEN 15
+IF  THEN 14
+IF  THEN 7
+IF  THEN 13
+IF  THEN 8
+IF  THEN 12
+IF  THEN 11
+IF  THEN 9
+ELSE 10
