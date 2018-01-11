@@ -1,0 +1,1 @@
+{'republican': [{'Handicapped-infants': ('==', 'y')}, {'Water-project-cost-sharing': ('==', 'n'), 'Education-spending': ('==', 'y'), 'Physician-fee-freeze': ('==', 'y')}, {'Education-spending': ('==', '?'), 'Adoption-of-the-budget-resolution': ('==', 'n')}]}

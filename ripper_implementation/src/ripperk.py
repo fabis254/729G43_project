@@ -157,7 +157,7 @@ def classify(classes):
     f.close()
     
     # Dirty trick to capture output for our corrupter.
-    print(str(classified * 100 / float(total)))
+    print("     Accuracy : " + str(classified * 100 / float(total)) + "\n")
     
 def create_attrs(f):
     """

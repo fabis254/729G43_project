@@ -15,11 +15,11 @@ for line in lines:
 f.close()
 
 # Här delas datan också upp i trännings och testdata
-# Träningsmängden är här alltså första 66% av datan.
-train = new_list[:-int(len(new_list)*0.66)]
+# Träningsmängden är här alltså första 90% av datan.
+train = new_list[:-int(len(new_list)*0.10)]
 
-# Återstående 33% är testdata
-test = new_list[int(len(new_list)*0.33):]
+# Återstående 10% är testdata
+test = new_list[int(len(new_list)*0.90):]
 
 # Sedan skrivs allt till två filer, en med träningsdata... 
 tr = open("./data/house-votes-train.txt", "w")

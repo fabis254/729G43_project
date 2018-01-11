@@ -1,0 +1,6 @@
+Class			Cases			Classified
+
+republican			20			19
+democrat			24			23
+
+Accuracy: 95.4545454545%
