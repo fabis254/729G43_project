@@ -1,6 +1,2 @@
-Class			Cases			Classified
-
-republican			20			16
-democrat			24			9
-
-Accuracy: 56.8181818182%
+IF Handicapped-infants == y || Synfuels-corporation-cutback == n && Physician-fee-freeze == y && Anti-satellite-test-ban == y || Water-project-cost-sharing == n && Education-spending == y && Physician-fee-freeze == y || Duty-free-exports == n && Synfuels-corporation-cutback == n && Adoption-of-the-budget-resolution == n && Physician-fee-freeze == y || Education-spending == ? && Adoption-of-the-budget-resolution == n || Handicapped-infants == y && Education-spending == n && Aid-to-nicaraguan-contras == n && Physician-fee-freeze == y && Export-administration-act-south-africa == y THEN republican
+ELSE democrat

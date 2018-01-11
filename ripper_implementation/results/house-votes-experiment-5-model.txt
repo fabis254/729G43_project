@@ -1,6 +1,2 @@
-Class			Cases			Classified
-
-republican			20			6
-democrat			24			10
-
-Accuracy: 36.3636363636%
+IF Handicapped-infants == y || Education-spending == ? && Adoption-of-the-budget-resolution == n THEN republican
+ELSE democrat

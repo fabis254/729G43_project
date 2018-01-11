@@ -1,2 +1,0 @@
-IF Handicapped-infants == y || Immigration == ? THEN republican
-ELSE democrat

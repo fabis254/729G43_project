@@ -1,6 +1,2 @@
-Class			Cases			Classified
-
-republican			20			19
-democrat			24			23
-
-Accuracy: 95.4545454545%
+IF Duty-free-exports == n && Adoption-of-the-budget-resolution == n && Physician-fee-freeze == y || Physician-fee-freeze == y && Anti-satellite-test-ban == y || Duty-free-exports == ? && Physician-fee-freeze == y || Education-spending == ? && Mx-missile == ? && Immigration == ? || Education-spending == y && Synfuels-corporation-cutback == n && Physician-fee-freeze == y || Water-project-cost-sharing == ? && Aid-to-nicaraguan-contras == n || Education-spending == ? && Adoption-of-the-budget-resolution == n || Duty-free-exports == n && Religious-groups-in-schools == n && Adoption-of-the-budget-resolution == n || Superfund-right-to-sue == n && Physician-fee-freeze == y THEN republican
+ELSE democrat

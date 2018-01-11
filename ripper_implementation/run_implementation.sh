@@ -60,7 +60,7 @@ python src/translate.py
 python2 src/ripperk.py -e learn -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-train.txt" -m "./results/house-votes-experiment-1-model.dat" -o "./results/house-votes-experiment-1-model.txt" -k 0 -p 0
 
 echo "Experiment 1: ingen pruning ingen optimering."
-python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-test.txt" -m "./results/house-votes-experiment-1-model.dat" -o "./results/house-votes-experiment-1-model.txt"
+python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-test.txt" -m "./results/house-votes-experiment-1-model.dat" -o "./results/house-votes-experiment-1-results.txt"
 # ============================================
 
 # ============================================
@@ -68,7 +68,7 @@ python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party 
 python2 src/ripperk.py -e learn -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-train.txt" -m "./results/house-votes-experiment-2-model.dat" -o "./results/house-votes-experiment-2-model.txt" -k 0 -p 1
 
 echo "Experiment 2: pruning, ingen optimering."
-python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-test.txt" -m "./results/house-votes-experiment-2-model.dat" -o "./results/house-votes-experiment-2-model.txt"
+python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-test.txt" -m "./results/house-votes-experiment-2-model.dat" -o "./results/house-votes-experiment-2-results.txt"
 # ============================================
 
 # ============================================
@@ -76,7 +76,7 @@ python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party 
 python2 src/ripperk.py -e learn -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-train.txt" -m "./results/house-votes-experiment-3-model.dat" -o "./results/house-votes-experiment-3-model.txt" -k 1 -p 1
 
 echo "Experiment 3: pruning, optimering (k=1)"
-python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-test.txt" -m "./results/house-votes-experiment-3-model.dat" -o "./results/house-votes-experiment-3-model.txt"
+python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-test.txt" -m "./results/house-votes-experiment-3-model.dat" -o "./results/house-votes-experiment-3-results.txt"
 # ============================================
 
 # ============================================
@@ -84,7 +84,7 @@ python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party 
 python2 src/ripperk.py -e learn -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-train.txt" -m "./results/house-votes-experiment-4-model.dat" -o "./results/house-votes-experiment-4-model.txt" -k 2 -p 1
 
 echo "Experiment 4: pruning, optimering (k=2)"
-python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-test.txt" -m "./results/house-votes-experiment-4-model.dat" -o "./results/house-votes-experiment-4-model.txt"
+python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-test.txt" -m "./results/house-votes-experiment-4-model.dat" -o "./results/house-votes-experiment-4-results.txt"
 # ============================================
 
 # ============================================
@@ -92,7 +92,7 @@ python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party 
 python2 src/ripperk.py -e learn -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-train.txt" -m "./results/house-votes-experiment-5-model.dat" -o "./results/house-votes-experiment-5-model.txt" -k 3 -p 1
 
 echo "Experiment 5: pruning, optimering (k=3)"
-python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-test.txt" -m "./results/house-votes-experiment-5-model.dat" -o "./results/house-votes-experiment-5-model.txt"
+python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-test.txt" -m "./results/house-votes-experiment-5-model.dat" -o "./results/house-votes-experiment-5-results.txt"
 # ============================================
 
 # ============================================
@@ -100,7 +100,7 @@ python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party 
 python2 src/ripperk.py -e learn -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-train.txt" -m "./results/house-votes-experiment-6-model.dat" -o "./results/house-votes-experiment-6-model.txt" -k 3 -p 0
 
 echo "Experiment 6: ingen pruning, optimering (k=3)"
-python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-test.txt" -m "./results/house-votes-experiment-6-model.dat" -o "./results/house-votes-experiment-6-model.txt"
+python2 src/ripperk.py -e classify -a "./data/house-votes-84-attr.txt" -c Party -t "./data/house-votes-test.txt" -m "./results/house-votes-experiment-6-model.dat" -o "./results/house-votes-experiment-6-results.txt"
 # ============================================
 
 # Vänligen,

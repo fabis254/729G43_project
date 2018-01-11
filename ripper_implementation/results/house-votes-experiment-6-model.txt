@@ -1,6 +1,2 @@
-Class			Cases			Classified
-
-republican			20			19
-democrat			24			9
-
-Accuracy: 63.6363636364%
+IF Handicapped-infants == y || Handicapped-infants == y && Immigration == y || Physician-fee-freeze == y THEN republican
+ELSE democrat

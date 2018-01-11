@@ -1,6 +1,2 @@
-Class			Cases			Classified
-
-republican			20			19
-democrat			24			23
-
-Accuracy: 95.4545454545%
+IF Synfuels-corporation-cutback == n && Physician-fee-freeze == y && Immigration == y || Education-spending == y && Adoption-of-the-budget-resolution == n && Physician-fee-freeze == y && Superfund-right-to-sue == y || Synfuels-corporation-cutback == n && Physician-fee-freeze == y && Anti-satellite-test-ban == y || El-salvador-aid == y && Superfund-right-to-sue == y && Handicapped-infants == n && Adoption-of-the-budget-resolution == n && Physician-fee-freeze == y || Water-project-cost-sharing == n && Education-spending == y && Physician-fee-freeze == y || Handicapped-infants == y && Physician-fee-freeze == y && Immigration == y || Duty-free-exports == n && Synfuels-corporation-cutback == n && Adoption-of-the-budget-resolution == n && Physician-fee-freeze == y || Education-spending == ? && Mx-missile == ? && Immigration == ? || Education-spending == ? && Adoption-of-the-budget-resolution == n || Handicapped-infants == y && Duty-free-exports == n && Synfuels-corporation-cutback == n && Adoption-of-the-budget-resolution == n || Handicapped-infants == y && Education-spending == n && Aid-to-nicaraguan-contras == n && Physician-fee-freeze == y && Export-administration-act-south-africa == y THEN republican
+ELSE democrat
